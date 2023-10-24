@@ -1,0 +1,71 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;  
+}
+body{
+    background-color: black;
+    color: #fff;
+    background-image: url('img/night.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header , .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#input{
+    width: 15rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem 2rem;
+    color: #ffffff;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+  
+}
+.btn{
+    width: fit-content;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    background: rgb(6, 77, 99);
+    padding: 0.2rem 2rem;
+    color: #ffffff;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;  
+    text-align: center;
+}
+
+.weatherDisplay{
+    display: flex;
+    min-height: 80vh;
+    justify-content: center;
+    padding: 40px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.img{
+    aspect-ratio: 1;
+    height: 8em;
+}
+.det{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.img-container{
+    border-right: 2px solid #fff;
+    padding:  10px 20px;
+}
+.temp-con{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
